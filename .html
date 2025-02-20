@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Will You Marry Me, Prachi?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Prachi, Will You Marry Me?</h1>
+      <nav>
+        <ul>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#proposal">The Proposal</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="story" class="section">
+    <div class="container">
+      <h2>Our Story</h2>
+      <p>Prachi, from the moment we met, my life changed in ways I never expected. Every laugh, every adventure, every moment we've shared has been a precious memory that I will cherish forever. The way you make me feel loved, understood, and complete is something I never want to let go of. With you, every day feels like a beautiful dream. I want to spend all my days making your dreams come true, just as you have made mine come true.</p>
+    </div>
+  </section>
+
+  <section id="proposal" class="section">
+    <div class="container">
+      <h2>The Proposal</h2>
+      <p>So, here it is... I want to make this moment as special as possible, not just with words, but with a lifetime of love and commitment. Prachi, will you be my partner for life? Will you marry me and make this beautiful journey we started together everlasting?</p>
+      <div class="proposal-image">
+        <img src="your-photo-together.jpg" alt="A photo of us together">
+      </div>
+      <button id="acceptProposal" onclick="respondProposal()">Yes, I do!</button>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you're reading this page, I'm waiting for your response, Prachi! 😊</p>
+      <form action="submit_form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Love Story with Prachi. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function respondProposal() {
+      alert("Thank you for saying YES! I am the luckiest person alive.");
+    }
+  </script>
+</body>
+</html>
